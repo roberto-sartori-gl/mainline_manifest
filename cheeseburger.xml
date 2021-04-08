@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
-  <remote fetch="http://github.com/pundiramit" name="github"/>
+  <remote fetch="http://github.com/robertosartori" name="github"/>
   <remote fetch="sso://android" name="superproject-remote"/>
   
   <default remote="aosp" revision="master" sync-j="4"/>
   
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver"/>
   
-  <project dest-branch="master" groups="default" name="device-xiaomi-beryllium" path="device/xiaomi/beryllium" remote="github" revision="544eb59907c9d5a7fda73600f5f0cf3d2c91f1bb" upstream="master"/>
+  <project dest-branch="master" groups="default" name="device-oneplus-cheeseburger-mainline" path="device/oneplus/cheeseburger" remote="github" revision="544eb59907c9d5a7fda73600f5f0cf3d2c91f1bb" upstream="master"/>
   <project dest-branch="master" groups="device,yukawa,pdk" name="device/amlogic/yukawa" revision="d8d17ec9ea7eb643085801234de651b73e46c64b" upstream="master"/>
   <project clone-depth="2" dest-branch="master" groups="device,yukawa,pdk" name="device/amlogic/yukawa-kernel" revision="9821defc46e5b3818052297f88e639ba39bf2e2b" upstream="master"/>
   <project dest-branch="master" groups="pdk-cw-fs,pdk" name="device/common" revision="c671841032acf253b99a3ebc72ff77f2cefae645" upstream="master"/>
