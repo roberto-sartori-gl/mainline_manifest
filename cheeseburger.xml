@@ -9,7 +9,7 @@
   
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver"/>
   
-  <project dest-branch="master" groups="default" name="device-oneplus-cheeseburger-mainline" path="device/oneplus/cheeseburger" remote="github" upstream="master"/>
+  <project dest-branch="master" groups="default" name="mainline-device-oneplus-cheeseburger" path="device/oneplus/cheeseburger" remote="github" revision="msm8998/android-mainline-5.10"/>
   <project dest-branch="master" groups="default" name="firmware-mainline-oneplus5" path="vendor/oneplus" remote="github-jami" revision="5fae3ad40c5966b93e1167233256bcca2061910c" upstream="10.0.1" />
   <project dest-branch="master" groups="device,yukawa,pdk" name="device/amlogic/yukawa" revision="d8d17ec9ea7eb643085801234de651b73e46c64b" upstream="master"/>
   <project clone-depth="2" dest-branch="master" groups="device,yukawa,pdk" name="device/amlogic/yukawa-kernel" revision="9821defc46e5b3818052297f88e639ba39bf2e2b" upstream="master"/>
