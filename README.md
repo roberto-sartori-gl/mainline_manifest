@@ -40,6 +40,7 @@ Following features are working:
 - volume and power buttons
 - adb for debug
 - RTC
+- Brightness control
 
 # ToDo
 Following features are not working:
@@ -52,6 +53,8 @@ Following features are not working:
 - suspend (when screen goes off, bluetooth and adb stop working)
 - RGB LED
 - haptics (https://wiki.postmarketos.org/wiki/Haptics)
+- Cameras
+- NFC
 
 # Thanks to...
 I mostly put the pieces together. So thanks to:
