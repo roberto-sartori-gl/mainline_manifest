@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
-  <remote fetch="http://github.com/robertosartori" name="github" />
+  <remote fetch="http://github.com/roberto-sartori-gl" name="github" />
   <remote fetch="http://github.com/jamikettunen" name="github-jami" />
   <remote fetch="sso://android" name="superproject-remote"/>
   

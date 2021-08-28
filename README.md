@@ -12,7 +12,7 @@ https://source.android.com/setup/build/initializing
 
 Then, sync all the sources:
 ```
-$ repo init -u https://github.com/robertosartori/mainline-manifest -b msm8998/android-mainline-5.10 -m cheeseburger.xml
+$ repo init -u https://github.com/roberto-sartori-gl/mainline-manifest -b msm8998/android-mainline-5.10 -m cheeseburger.xml
 $ repo sync -c --no-clone-bundle --no-tags
 ```
 then:
