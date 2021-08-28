@@ -2,7 +2,7 @@
 
 This projects aims to provide an AOSP build system capable of boot with Linux Mainline kernel on the Oneplus 5 (Cheeseburger).
 
-At the moment, AOSP (Android S) is validated to boot with Kernel 5.10.
+At the moment, AOSP (Android S) is validated to boot with Kernel 5.11.
 Kernel sources are available here:
 https://github.com/robertosartori/mainline-kernel-oneplus-msm8998
 
@@ -12,7 +12,7 @@ https://source.android.com/setup/build/initializing
 
 Then, sync all the sources:
 ```
-$ repo init -u https://github.com/roberto-sartori-gl/mainline-manifest -b msm8998/android-mainline-5.10 -m cheeseburger.xml
+$ repo init -u https://github.com/roberto-sartori-gl/mainline-manifest -b msm8998/android-mainline-5.11 -m cheeseburger.xml
 $ repo sync -c --no-clone-bundle --no-tags
 ```
 then:
